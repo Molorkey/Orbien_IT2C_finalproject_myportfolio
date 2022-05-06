@@ -51,6 +51,7 @@
   <header id="header">
     <div class="d-flex flex-column">
       
+
         <div class="profile">
         <img src="assets/img/Melol.jpg" alt="" class="img-fluid rounded-circle">
         
@@ -87,7 +88,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <section id="" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
        
           <?php 
@@ -108,20 +109,26 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+          <?php
+          echo '<h2>About</h2>';
+          echo '<p>I am Vincent Ray V. Orbien and I am from Santol, Boac, Marinduque. I am a student of Marinduque State College.</p>';
+          ?>
+
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/Melol.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+
+            <?php
+            echo '<h3>Gamer & Developer</h3>';
+            echo '<p class="fst-italic">
+              Here are my Details
+            </p>';
+            ?>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -335,8 +342,14 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+
+          <?php
+          echo '<h2>Portfolio</h2>';
+          echo '<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>';
+          ?>
+
+
         </div>
 
         <div class="row" data-aos="fade-up">
